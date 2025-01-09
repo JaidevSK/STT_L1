@@ -12,7 +12,9 @@ C = 1
 C = C + 1
 
 def a(a):
-    """ This is just for analysing the Working of Pylint """
+    """ 
+    This is just for analysing the Working of Pylint 
+    """
     print(a)
     # Comment
     for i in range(10):

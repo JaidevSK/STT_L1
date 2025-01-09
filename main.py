@@ -17,10 +17,10 @@ def a(a):
     """
     print(a)
     # Comment
-    for i in range(10):
+    for j in range(10):
         b = 20
-        d = a1+b
-    print(i)    
+        d = a+b
+    print(j)
     return d
 
 B2 = a(1)

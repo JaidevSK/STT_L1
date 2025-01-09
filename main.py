@@ -2,25 +2,24 @@ A1 = 1
 B1 = 10
 
 for i in range (A1, B1):
-	print("Hello World")
+    print("Hello World")
 
 C = 1
 C = C + 1
 
 def a(a):
-	for i in range(10):
-		a = 10
-		b = 20
-		d = a+b
-		return d
-		print(d)
+    for i in range(10):
+        a1 = 10
+        b = 20
+        d = a1+b
+        return d
+        print(d)
 
-b = a(a)
-print(b)
+B2 = a(1)
+print(B2)
 
-if (a == b):
-	print(True)	
+if A1 == B1:
+    print(True)
 else: 
-	print(False)
-
+    print(False)
 print("Hello World") # This is a comment

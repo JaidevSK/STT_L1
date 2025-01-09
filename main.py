@@ -11,15 +11,15 @@ for i in range (A1, B1):
 C = 1
 C = C + 1
 
-def a(a):
+def a(a1):
     """ 
     This is just for analysing the Working of Pylint 
     """
-    print(a)
+    print(a1)
     # Comment
     for j in range(10):
         b = 20
-        d = a+b
+        d = a1+b
     print(j)
     return d
 
@@ -28,6 +28,6 @@ print(B2)
 
 if A1 == B1:
     print(True)
-else: 
+else:
     print(False)
 print("Hello World") # This is a comment

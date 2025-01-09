@@ -12,8 +12,8 @@ C = 1
 C = C + 1
 
 def a(a):
-    ""This is just for analysing the 
-    Working of Pylint"
+    """This is just for analysing the 
+    Working of Pylint"""
     print(a)
     for i in range(10):
         b = 20
